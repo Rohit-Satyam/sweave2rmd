@@ -34,4 +34,14 @@ author:
   email: https://www.roswellpark.org/martin-morgan
 ``` 
 
+### *Question:* How to add in-text referencing in Vignettes and link them to references/bibliography section
+
+*Answer:* The referencing can be achieved by adding `bibliography` section with a file containing relevant references in _BIBTEX_ format (.bib file). To link the in-text references to the references section use `link-citations: TRUE`. To format the references, a `.csl` file can be downloaded from [Zotero Style Repository](https://www.zotero.org/styles). For instance I use `BMC Bioinformatics format`
+See below.
+```
+bibliography:
+- refs.bib
+link-citations: TRUE
+csl: bmc-bioinformatics.csl
+```
 ### *Question:*
